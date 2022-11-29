@@ -7,9 +7,9 @@ for(let i=n-1;i>=0;i--){
 }
 
 if(bag==str){
-  console.log("Its palindrome");
+  console.log("palindrome");
   
 }
 else{
-  console.log("Its not palindrome");
+  console.log("not palindrome");
 }

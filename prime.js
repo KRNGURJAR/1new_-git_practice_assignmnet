@@ -1,13 +1,13 @@
  let num=5;
 let count=0;
-for(i=1;i<5;i+){
-	if(num%1!=0){
+for(i=1;i<=num;i+){
+	if(num%i==0){
 count++;
 }	
 }
-if(count==2){
-console.log(prime)
+if(count===2){
+console.log("Prime");
 }
 else{
-console.log(false)
+console.log("Not prime");
 }
